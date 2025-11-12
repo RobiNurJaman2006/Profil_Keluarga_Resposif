@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Keluarga Responsif</title>
+
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: lightskyblue;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      background-color: dodgerblue;
+      color: white;
+      padding: 20px;
+      margin: 0;
+       border-radius: 0 0 25px 25px;
+      margin-bottom: 30px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      width: 22%; /* untuk 4 kolom di desktop */
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.3s;
+      word-wrap: break-word;
+  word-break: break-word;
+  overflow: visible; 
+      
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50px;
+      margin-bottom: 10px;
+    }
+
+    .card h2 {
+        color: #007bff;
+        margin: 10px 0;
+      }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 14px;
+    }
+
+    td {
+      padding: 4px 0;
+      vertical-align: top;
+    }
+
+    td:first-child {
+      font-weight: bold;
+      width: 40%;
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        width: 45%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Profil Keluarga Responsif</h1>
+
+  <div class="container">
+
+    <div class="card">
+      <img src="image/bapa.jpeg" alt="Ayah">
+      <h2>Ayah</h2>
+      <table>
+        <tr><td>Nama</td><td>: Ebo Bohari</td></tr>
+        <tr><td>Jenis Kelamin</td><td>: Laki-Laki</td></tr>
+        <tr><td>Alamat</td><td>: Lingk. Aton, RT.10/RW.05, Kel. Cijoho, Kec. Kuningan</td></tr>
+        <tr><td>Pekerjaan</td><td>: Buruh/Petani</td></tr>
+        <tr><td>Agama</td><td>: Islam</td></tr>
+        <tr><td>Status</td><td>: Sudah Menikah</td></tr>
+        <tr><td>Kewarganegaraan</td><td>: WNI</td></tr>
+        <tr><td>Umur</td><td>: 52 tahun</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <img src="image/mama.jpeg" alt="Ibu">
+      <h2>Ibu</h2>
+      <table>
+        <tr><td>Nama</td><td>: Nining Sumarni</td></tr>
+        <tr><td>Jenis Kelamin</td><td>: Wanita</td></tr>
+        <tr><td>Alamat</td><td>: Lingk. Aton, RT.10/RW.05, Kel. Cijoho, Kec. Kuningan</td></tr>
+        <tr><td>Pekerjaan</td><td>: Ibu Rumah Tangga</td></tr>
+        <tr><td>Agama</td><td>: Islam</td></tr>
+        <tr><td>Status</td><td>: Sudah Menikah</td></tr>
+        <tr><td>Kewarganegaraan</td><td>: WNI</td></tr>
+        <tr><td>Umur</td><td>: 48 tahun</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <img src="image/kaka ke 1.jpeg" alt="Anak Pertama">
+      <h2>Anak Pertama</h2>
+      <table>
+        <tr><td>Nama</td><td>: Ati Nur Sari</td></tr>
+        <tr><td>Jenis Kelamin</td><td>: Wanita</td></tr>
+        <tr><td>Alamat</td><td>: Lingk. Aton, RT.10/RW.05, Kel. Cijoho, Kec. Kuningan</td></tr>
+        <tr><td>Agama</td><td>: Islam</td></tr>
+        <tr><td>Status</td><td>: Sudah Menikah</td></tr>
+        <tr><td>Kewarganegaraan</td><td>: WNI</td></tr>
+        <tr><td>Umur</td><td>: 26 tahun</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <img src="image/kaka 2.jpeg" alt="Anak Kedua">
+      <h2>Anak Kedua</h2>
+      <table>
+        <tr><td>Nama</td><td>: Pani Puja Yanti</td></tr>
+        <tr><td>Jenis Kelamin</td><td>: Wanita</td></tr>
+        <tr><td>Alamat</td><td>: Lingk. Aton, RT.10/RW.05, Kel. Cijoho, Kec. Kuningan</td></tr>
+        <tr><td>Agama</td><td>: Islam</td></tr>
+        <tr><td>Status</td><td>: Belum Menikah</td></tr>
+        <tr><td>Kewarganegaraan</td><td>: WNI</td></tr>
+        <tr><td>Umur</td><td>: 21 tahun</td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <img src="image/kuku.jpeg" alt="Anak Ketiga">
+      <h2>Anak Ketiga</h2>
+      <table>
+        <tr><td>Nama</td><td>: Robi Nur Jaman</td></tr>
+        <tr><td>Jenis Kelamin</td><td>: Laki-Laki</td></tr>
+        <tr><td>Alamat</td><td>: Lingk. Aton, RT.10/RW.05, Kel. Cijoho, Kec. Kuningan</td></tr>
+        <tr><td>Agama</td><td>: Islam</td></tr>
+        <tr><td>Status</td><td>: Belum Menikah</td></tr>
+        <tr><td>Kewarganegaraan</td><td>: WNI</td></tr>
+        <tr><td>Umur</td><td>: 19 tahun</td></tr>
+      </table>
+    </div>
+
+  </div>
+</body>
+</html>
